@@ -1,0 +1,29 @@
+.Contact-header {
+  background-color: #090909;
+  color: rgb(230, 200, 154);
+}
+
+.Hamburger-menu {
+  min-height: 7vh;
+}
+
+.Contact-main {
+  min-height: 88vh;
+}
+.form-group {
+  color: rgb(230, 200, 154);
+}
+
+.Contact-left {
+  margin: auto;
+  display: block;
+}
+
+.Contact-right {
+  margin: auto;
+  display: block;
+}
+
+.Contact-footer {
+  min-height: 5vh;
+}

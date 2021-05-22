@@ -1,0 +1,21 @@
+.home-right {
+  height: 100%;
+  
+}
+
+.home-right-main {
+  height: 100%;
+  
+}
+
+.home-right-main-img {
+  height: 62vh;
+  width: 45vh;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.home-right-footer {
+  width: 100%;
+}
