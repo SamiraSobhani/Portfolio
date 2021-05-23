@@ -51,8 +51,8 @@ class Email_Form extends React.Component {
     //=======================
     emailjs
       .send(
-        "service_grv43fm",
-        "template_nxssm8f",
+        "service_qdy0gbl",
+        "template_0jmtgfe",
         templateParams,
         "user_PKpU5ouLEaoYDx2bSg27Y"
       )
