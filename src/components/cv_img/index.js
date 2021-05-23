@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../cv_img/style.css";
 import cv1 from "../../assets/img/cv1.png";
-import cv from "../../assets/img/cv.png";
+import cv from "../../assets/img/cv1.png";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import Roll from "react-reveal/Roll";
