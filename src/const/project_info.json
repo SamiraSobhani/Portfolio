@@ -3,23 +3,25 @@
     {
       "id": 0,
       "name": "PinPal - Capstone Project",
-      "tools": "ReactJS, Node/Express, PostgreSQL, Webpack, Axios, Sass, Twilio, Stripe, Leaflet",
+      "tools": "ReactJS, NodeJS, Axios, Sass",
       "link": "https://github.com/SamiraSobhani/PinMarket.git",
       "image": []
     },
     {
       "id": 1,
       "name": "Brainflix",
-      "tools": "Rails, PostgreSQL, Stripe, SASS-Rails, jQuery-Rails",
+      "tools": "JavaScript,,",
       "link": "https://github.com/SamiraSobhani/Samira-Sobhani-Brainflix.git",
       "image": []
     },
     {
       "id": 2,
       "name": "Coffee Shop",
-      "tools": "ReactJS, PostgreSQL, Webpack, Axios, WebSockets, Jest, React Testing Library, Storybook, Cypress",
+      "tools": "first project at BrainStation. HTML, CSS, Animation",
       "link": "https://github.com/SamiraSobhani/CoffeeShop.git",
-      "image": []
+      
+      "image": [],
+      "View":"https://outklip.com/v/-Mb-pa8uqY--jpFTVGmq"
     },
     {
       "id": 3,
@@ -38,7 +40,7 @@
     {
       "id": 5,
       "name": "Bandsite",
-      "tools": "JavaScript, SCSS, HTML",
+      "tools": "A simple semi-static web page for a music band using HTML, SCSS and JavaScript.",
       "link": "https://github.com/SamiraSobhani/samira-sobhani-bandsite.git",
       "image": []
     }
