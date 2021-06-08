@@ -10,14 +10,14 @@
     {
       "id": 1,
       "name": "Brainflix",
-      "tools": "JavaScript,,",
+      "tools": "JavaScript, HTML, CSS",
       "link": "https://github.com/SamiraSobhani/Samira-Sobhani-Brainflix.git",
       "image": []
     },
     {
       "id": 2,
       "name": "Coffee Shop",
-      "tools": "first project at BrainStation. HTML, CSS, Animation",
+      "tools": "HTML, CSS, Animation, JavaScript",
       "link": "https://github.com/SamiraSobhani/CoffeeShop.git",
       
       "image": [],
@@ -40,7 +40,7 @@
     {
       "id": 5,
       "name": "Bandsite",
-      "tools": "A simple semi-static web page for a music band using HTML, SCSS and JavaScript.",
+      "tools": "HTML, SCSS and JavaScript.",
       "link": "https://github.com/SamiraSobhani/samira-sobhani-bandsite.git",
       "image": []
     }
