@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../cv_img/style.css";
-import cv1 from "../../assets/img/cv1.png";
-import cv from "../../assets/img/cv1.png";
+import cv1 from "../../assets/img/resume-1.png";
+import cv from "../../assets/img/resume-2.png";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import Roll from "react-reveal/Roll";
@@ -26,12 +26,20 @@ export default class CRI extends Component {
         <Zoom right>
           <Flip right>
             <div>
-              <img
-                src={cv}
-                onClick={() => this.setState({ isOpen: true })}
-                className="cv_img_mouse"
-                alt="Samira Sobhani CV preview"
-              />
+              <span className="resume">
+                <img
+                  src={cv1}
+                  onClick={() => this.setState({ isOpen: true })}
+                  className="cv_img_mouse"
+                  alt="Samira Sobhani CV preview"
+                />
+                <img
+                  src={cv}
+                  onClick={() => this.setState({ isOpen: true })}
+                  className="cv_img_mouse"
+                  alt="Samira Sobhani CV preview"
+                />
+              </span>
               {isOpen && (
                 <Lightbox
                   mainSrc={images[photoIndex]}

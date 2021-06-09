@@ -48,7 +48,7 @@ class CLC extends Component {
           <div className="clc_main">
             <div className="clc_container">
               <Fade top cascade>
-                <h1 className="clc_header">About</h1>
+                <h1 className="clc_header">About me</h1>
               </Fade>
               <ColoredLine color="#FFC466" />
               <Fade top cascade>
@@ -57,7 +57,7 @@ class CLC extends Component {
                     <FontAwesomeIcon icon={faHdd} className="left_icon" />
                     <br />
                     <br />
-                    <p className="left_icon__text">Projects</p>
+                    <p className="left_icon__text"> My Projects</p>
                   </Link>
                 </div>
               </Fade>

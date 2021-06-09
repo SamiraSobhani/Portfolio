@@ -14,6 +14,7 @@
 }
 
 .clc_header {
+  font-size: 1.7rem;
   text-align: center;
   font-family: "Sulphur Point", sans-serif;
   color: rgb(230, 200, 154);
@@ -29,11 +30,12 @@
 
 .AboutBtnContainer {
   width: 100%;
+  text-align: center;
 }
 
 .left {
   width: 50%;
-  float: left;
+  float: center;
   text-align: center;
   font-family: "Roboto Mono", monospace;
   font-weight: 900;
