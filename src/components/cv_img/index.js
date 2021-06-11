@@ -8,7 +8,7 @@ import Roll from "react-reveal/Roll";
 import Zoom from "react-reveal/Zoom";
 import Flip from "react-reveal/Flip";
 
-const images = [cv1];
+const images = [cv1, cv];
 
 export default class CRI extends Component {
   constructor(props) {

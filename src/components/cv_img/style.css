@@ -1,8 +1,9 @@
-.cv_img_mouse{
+.cv_img_mouse {
   cursor: zoom-in;
-  width: 100%;
-  max-height: 95vh;
+  width: 49%;
+  max-height: 97vh;
 }
 .resume {
   display: flex;
+  justify-content: space-between;
 }
