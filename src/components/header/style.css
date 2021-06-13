@@ -1,0 +1,11 @@
+.header {
+  background-image: url("../../assets/img/mountains.jpg");
+  height: 8rem;
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+  height: 3rem;
+  background-color: rgb(26,26,26
+  );
+}

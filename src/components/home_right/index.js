@@ -1,6 +1,6 @@
 import React from "react";
 import "../home_right/style.css";
-import Samira from "../../assets/img/samira.jpg";
+import Samira from "../../assets/img/samira1.jpg";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import SocialIcons from "../social_icons";
 

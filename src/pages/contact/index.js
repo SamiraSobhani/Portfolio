@@ -6,8 +6,8 @@ import HamburgerMenu from "../../components/hamburger_menu";
 import ContactLeft from "../../components/contact_left";
 import EmailForm from "../../components/email_form";
 import { Helmet } from "react-helmet";
-import particles from "../../const/contact_particle.js";
-import Particles from "react-particles-js";
+// import particles from "../../const/contact_particle.js";
+// import Particles from "react-particles-js";
 
 class Contact extends React.Component {
   render() {
@@ -21,8 +21,8 @@ class Contact extends React.Component {
             content="Samira Sobhani | Full Stack Web Developer"
           />
         </Helmet>
-        <Animate to="1" from="0" attributeName="opacity">
-          <Particles params={particles} className="particle" />
+        {/* <Animate to="1" from="0" attributeName="opacity">
+          <Particles params={particles} className="particle" /> */}
           <Container className="Contact-header" fluid={true}>
             <Row className="Hamburger-menu">
               <HamburgerMenu />
@@ -37,7 +37,7 @@ class Contact extends React.Component {
             </Row>
             <Row className="Contact-footer"></Row>
           </Container>
-        </Animate>
+        {/* </Animate> */}
       </div>
     );
   }
