@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "../project_main/style.css";
 import { Col, Card, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLink } from "@fortawesome/free-solid-svg-icons";
 import info from "../../const/project_info.json";
 import { ReactVideo } from "reactjs-media";
 import PinPalVideo from "../../assets/img/PinPalVideo.mp4";
@@ -11,7 +10,7 @@ import CoffeeShopVideo from "../../assets/img/CoffeeShopVideo.mp4";
 import CoffeeShopPoster from "../../assets/img/coffeeShop.JPG";
 import BookStoreVideo from "../../assets/img/BookStoreVideo.mp4";
 import BookStorePoster from "../../assets/img/bookstore.JPG";
-
+import GitIcon from "../../assets/img/git.svg";
 export default class PM extends Component {
   constructor(props) {
     super(props);
@@ -25,7 +24,7 @@ export default class PM extends Component {
   render() {
     return (
       <div className="projects">
-        <div className="projects__video">
+        <span className="projects__video">
           <br />
           <ReactVideo
             poster={PinPalPoster}
@@ -44,7 +43,7 @@ export default class PM extends Component {
             src={CoffeeShopVideo}
             primaryColor="darkred"
           />
-        </div>
+        </span>
         <Row className="main_row">
           {info.data.map((item) => (
             <Col xl={4} key={item.id} className="card_col">
@@ -68,11 +67,8 @@ export default class PM extends Component {
                   &nbsp;&nbsp;
                   {item.link !== false && (
                     <Card.Link href={item.link} target="_blank">
-                      <FontAwesomeIcon
-                        className="icon"
-                        size="lg"
-                        icon={faLink}
-                      />
+                      <img src={GitIcon}></img>
+                      
                     </Card.Link>
                   )}
                 </Card.Body>
