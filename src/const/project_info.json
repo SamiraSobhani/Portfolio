@@ -3,50 +3,49 @@
     {
       "id": 0,
       "name": "PinPal - Capstone Project",
-      "tools": "ReactJS, NodeJS, Axios, Sass",
+      "tools": "React jS, Recaptcha v3, JWT, Google Maps API, Axios, Sass",
+      "description": "Map-based full-stack web application helps customers to connect suppliers. Customer adds job post on map and supplier can apply for it.",
       "link": "https://github.com/SamiraSobhani/PinMarket.git",
       "image": []
     },
     {
       "id": 1,
       "name": "PinPal - server - Java",
-      "tools": "Java, Spring frameWorke",
+      "tools": "Java, Spring Data, Spring Security, MySQL",
+      "description": "PinPal server side written by Java",
       "link": "https://github.com/SamiraSobhani/pinpal-server-java.git",
       "image": []
     },
     {
       "id": 2,
       "name": "Book Store",
-      "tools": "Reactjs, Nodejs,express, Zustand, HTML, CSS",
+      "tools": "Reactjs, Nodejs,express, Zustand, HTML, CSS, Bootstrap",
+      "description": "full stack react web application. It's the online book store with CRUD functionality",
       "link": "https://github.com/SamiraSobhani/Samira-Sobhani-Brainflix.git",
       "image": []
     },
     {
       "id": 3,
-      "name": "Brainflix",
-      "tools": "JavaScript, HTML, CSS",
-      "link": "https://github.com/SamiraSobhani/Samira-Sobhani-Brainflix.git",
-      "image": []
-    },
-    {
-      "id": 4,
       "name": "Nitro Coffee",
       "tools": "HTML, CSS, Animation, JavaScript",
+      "description": "",
       "link": "https://github.com/SamiraSobhani/CoffeeShop.git",
       "image": [],
       "View": "https://outklip.com/v/-Mb-pa8uqY--jpFTVGmq"
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "Vending Machine",
       "tools": "Java",
+      "description": "",
       "link": "https://github.com/SamiraSobhani/Vending-Machine.git",
       "image": []
     },
     {
-      "id": 6,
-      "name": "Bandsite",
-      "tools": "HTML, Sass and JavaScript.",
+      "id": 5,
+      "name": "BandSite",
+      "tools": "HTML, Sass and JavaScript",
+      "description": "A client-side project which shows music band details with the ability to add comment and likes",
       "link": "https://github.com/SamiraSobhani/samira-sobhani-bandsite.git",
       "image": []
     }

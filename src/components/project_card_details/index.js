@@ -25,48 +25,7 @@ const PCD = () => {
                   Updated: {item.updated_at}
                 </Card.Subtitle>
                 <Card.Body className="project_card_main">
-                  <Button
-                    variant="outline-light"
-                    size="lg"
-                    className="modal-exit-btn about_modal"
-                  >
-                    <CopyToClipboard
-                      text={item.ssh_url}
-                      onCopy={() =>
-                        ToastsStore.info("SSH url copied to clipboard 🤩😍")
-                      }
-                    >
-                      <span>SSH</span>
-                    </CopyToClipboard>
-                  </Button>
-                  <Button
-                    variant="outline-light"
-                    size="lg"
-                    className="modal-exit-btn about_modal"
-                  >
-                    <CopyToClipboard
-                      text={item.clone_url}
-                      onCopy={() =>
-                        ToastsStore.info("HTTPS url copied to clipboard 👍😬")
-                      }
-                    >
-                      <span>HTTPS</span>
-                    </CopyToClipboard>
-                  </Button>
-                  <Button
-                    variant="outline-light"
-                    size="lg"
-                    className="modal-exit-btn about_modal"
-                  >
-                    <a
-                      href={item.svn_url}
-                      style={{ textDecoration: "none", color: "white" }}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      VIEW
-                    </a>
-                  </Button>
+      
                   <ToastsContainer store={ToastsStore} timer="10000" />
                 </Card.Body>
               </Col>
