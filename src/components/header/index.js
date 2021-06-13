@@ -1,16 +1,9 @@
 import React from "react";
 import "../header/style.css";
+// import { BrowserRouter as Router, Link } from "react-router-dom";
+// import { Button } from "react-bootstrap";
 function Header() {
-  return (
-    <>
-      <div className="header"></div>
-      <div className="navbar">
-        <button className="header_button">Project</button>
-        <button className="header_button">About me</button>
-        <button className="header_button">Contact me</button>
-      </div>
-    </>
-  );
+  return <div className="header"></div>;
 }
 
 export default Header;

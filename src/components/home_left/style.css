@@ -29,24 +29,4 @@
   font-family: "Sulphur Point", sans-serif;
 }
 
-.home-left-aboutme-main {
-  position: relative;
-  z-index: -1;
-}
 
-.home-left-aboutme {
-  color: rgb(230, 200, 154);
-}
-
-.home-left-aboutme:hover {
-  color: black;
-  background: rgb(201, 150, 62);
-}
-
-.home-left-aboutmme-btn:hover {
-  background: rgb(201, 150, 62);
-}
-.home-left-aboutmme-btn {
-  border-color: rgb(230, 200, 154);
-  color: rgb(230, 200, 154);
-}

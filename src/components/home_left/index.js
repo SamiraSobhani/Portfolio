@@ -1,8 +1,7 @@
 import React from "react";
 import "../home_left/style.css";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import ReactTypingEffect from "react-typing-effect";
-import { Link } from "react-router-dom";
 
 function Home_Left() {
   return (
@@ -22,33 +21,6 @@ function Home_Left() {
             />
           </h3>
           <br />
-          <Button
-            variant="outline-light"
-            size="lg"
-            className="home-left-aboutmme-btn"
-          >
-            <Link
-              to="/about"
-              style={{ textDecoration: "none"}}
-              className="home-left-aboutme"
-            >
-              About Me
-            </Link>
-          </Button>{" "}
-          &nbsp;
-          <Button
-            variant="outline-light"
-            size="lg"
-            className="home-left-aboutmme-btn"
-          >
-            <Link
-              style={{ textDecoration: "none" }}
-              to="/contact"
-              className="home-left-aboutme"
-            >
-              Contact Me
-            </Link>
-          </Button>
         </Col>
       </Row>
     </Container>

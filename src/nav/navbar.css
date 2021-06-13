@@ -1,0 +1,25 @@
+.navbar {
+  height: 4rem;
+  background-color: rgb(26, 26, 26);
+}
+.home-left-aboutme-main {
+  position: relative;
+  z-index: -1;
+}
+
+.home-left-aboutme {
+  color: white;
+}
+
+.home-left-aboutme:hover {
+  color: black;
+  background: rgb(201, 150, 62);
+}
+
+.home-left-aboutmme-btn:hover {
+  background: rgb(201, 150, 62);
+}
+.home-left-aboutmme-btn {
+  border-color: rgb(201, 150, 62);
+  color: rgb(201, 150, 62);
+}
