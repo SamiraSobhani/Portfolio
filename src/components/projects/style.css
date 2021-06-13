@@ -29,3 +29,6 @@
   display: inline-block;
   flex: none;
 }
+.card_col {
+  min-width: 80%;
+}

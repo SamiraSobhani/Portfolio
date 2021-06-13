@@ -9,38 +9,44 @@
     },
     {
       "id": 1,
-      "name": "Brainflix",
-      "tools": "JavaScript, HTML, CSS",
-      "link": "https://github.com/SamiraSobhani/Samira-Sobhani-Brainflix.git",
-      "image": []
-    },
-    {
-      "id": 2,
-      "name": "Coffee Shop",
-      "tools": "HTML, CSS, Animation, JavaScript",
-      "link": "https://github.com/SamiraSobhani/CoffeeShop.git",
-      
-      "image": [],
-      "View":"https://outklip.com/v/-Mb-pa8uqY--jpFTVGmq"
-    },
-    {
-      "id": 3,
       "name": "PinPal - server - Java",
       "tools": "Java, Spring frameWorke",
       "link": "https://github.com/SamiraSobhani/pinpal-server-java.git",
       "image": []
     },
     {
+      "id": 2,
+      "name": "Book Store",
+      "tools": "Reactjs, Nodejs,express, Zustand, HTML, CSS",
+      "link": "https://github.com/SamiraSobhani/Samira-Sobhani-Brainflix.git",
+      "image": []
+    },
+    {
+      "id": 3,
+      "name": "Brainflix",
+      "tools": "JavaScript, HTML, CSS",
+      "link": "https://github.com/SamiraSobhani/Samira-Sobhani-Brainflix.git",
+      "image": []
+    },
+    {
       "id": 4,
+      "name": "Nitro Coffee",
+      "tools": "HTML, CSS, Animation, JavaScript",
+      "link": "https://github.com/SamiraSobhani/CoffeeShop.git",
+      "image": [],
+      "View": "https://outklip.com/v/-Mb-pa8uqY--jpFTVGmq"
+    },
+    {
+      "id": 5,
       "name": "Vending Machine",
       "tools": "Java",
       "link": "https://github.com/SamiraSobhani/Vending-Machine.git",
       "image": []
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Bandsite",
-      "tools": "HTML, SCSS and JavaScript.",
+      "tools": "HTML, Sass and JavaScript.",
       "link": "https://github.com/SamiraSobhani/samira-sobhani-bandsite.git",
       "image": []
     }
