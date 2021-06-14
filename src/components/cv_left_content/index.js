@@ -46,22 +46,6 @@ class CLC extends Component {
       <Slide left>
         <Bounce>
           <div className="clc_main">
-            <div className="clc_container">
-              <Fade top cascade>
-                <h1 className="clc_header">About me</h1>
-              </Fade>
-              <ColoredLine color="#FFC466" />
-              <Fade top cascade>
-                <div className="AboutBtnContainer">
-                  <Link to={"./project"} className="left">
-                    <FontAwesomeIcon icon={faHdd} className="left_icon" />
-                    <br />
-                    <br />
-                    <p className="left_icon__text"> My Projects</p>
-                  </Link>
-                </div>
-              </Fade>
-            </div>
             {isOpen && (
               <Lightbox
                 mainSrc={images[photoIndex]}

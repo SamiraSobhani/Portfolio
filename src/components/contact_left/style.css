@@ -1,24 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Roboto+Mono|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Roboto+Mono|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap");
 
-.Contact-text{
+.Contact-text {
   text-align: center;
-  color: rgb(230, 200, 154);
- }
-
-.p-heading1{
-  font-size: 4rem;
-  font-family: 'Sulphur Point', sans-serif;
+  color: rgb(26, 26, 26);
+  margin-top: 8rem;
 }
 
-.p-heading2{
+.p-heading1 {
+  font-size: 4rem;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.p-heading2 {
   font-size: 0.98rem;
   padding: 2.5%;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
-.contact-left-footer{
+.contact-left-footer {
   width: 100%;
   font-size: 1.7rem;
-  
+}
+.contact-me {
+  background-color: goldenrod;
+  width: 75%;
+  height: 85vh;
+  margin-left: 4rem;
+  position: absolute;
+  top: -26rem;
 }

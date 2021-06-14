@@ -5,9 +5,9 @@ import SocialIcons from "../social_icons";
 
 function Contact_Left() {
   return (
-    <div>
+    <div className="contact-me">
       <Row className="Contact-text">
-        <Col xl={12}>
+        <Col xl={11}>
           <h1 className="p-heading1">Get In Touch</h1>
           <p className="p-heading2">
             Hola <strong>Visitor !!</strong>
