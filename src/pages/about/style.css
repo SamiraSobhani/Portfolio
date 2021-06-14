@@ -65,3 +65,38 @@
   > p {
   margin-left: 1rem;
 }
+
+.myresume {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.resume-name {
+  margin-top: 5rem;
+}
+.resume-right {
+  margin-left: 37%;
+  width: 60%;
+  color: white;
+  display: block;
+}
+.resume-left {
+  width: 28%;
+  background-color: gold;
+  text-align: center;
+  height: 90rem;
+  margin-left: 4rem;
+  position: absolute;
+  top: 4rem;
+  display: block;
+}
+.knowledge {
+  display: flex;
+  justify-content: space-between;
+}
+.tech {
+  display: flex;
+  justify-content: space-between;
+}

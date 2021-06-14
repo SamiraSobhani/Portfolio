@@ -21,7 +21,7 @@
   font-size: 0.9rem;
 }
 .card-body h4 {
-  color: goldenrod;
+  color: gold;
 }
 .card-body a {
   margin-left: 16rem;
@@ -53,8 +53,7 @@
   justify-content: space-between;
 }
 .videos {
-  width: 80%;
+  width: 70%;
   margin-left: 4rem;
   margin-top: 2rem;
 }
-

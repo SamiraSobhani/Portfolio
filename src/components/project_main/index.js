@@ -32,28 +32,28 @@ export default class PM extends Component {
             <ReactVideo
               poster={PinPalPoster}
               src={PinPalVideo}
-              primaryColor="goldenrod"
+              primaryColor="gold"
             />
           </div>
           <div className="videos">
             <ReactVideo
               poster={BookStorePoster}
               src={BookStoreVideo}
-              primaryColor="goldenrod"
+              primaryColor="gold"
             />
           </div>
           <div className="videos">
             <ReactVideo
               poster={CoffeeShopPoster}
               src={CoffeeShopVideo}
-              primaryColor="goldenrod"
+              primaryColor="gold"
             />
           </div>
           <div className="videos">
             <ReactVideo
               poster={BandSite}
               src={BandSiteVideo}
-              primaryColor="goldenrod"
+              primaryColor="gold"
             />
           </div>
         </span>

@@ -3,7 +3,7 @@
 .home-left {
   height: 42rem;
   width: 22rem;
-  background-color: goldenrod;
+  background-color: gold;
   position: absolute;
   top: -8rem;
   left: 5rem;
@@ -19,7 +19,7 @@
   margin-left: 0;
   margin-right: 0;
   display: block;
-  background-color: goldenrod;
+  background-color: gold;
 }
 
 .first-line {

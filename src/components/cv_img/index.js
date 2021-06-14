@@ -1,70 +1,70 @@
-import React, { Component } from "react";
-import "../cv_img/style.css";
-import cv1 from "../../assets/img/resume-1.png";
-import cv from "../../assets/img/resume-2.png";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
-import Roll from "react-reveal/Roll";
-import Zoom from "react-reveal/Zoom";
-import Flip from "react-reveal/Flip";
+// import React, { Component } from "react";
+// import "../cv_img/style.css";
+// import cv1 from "../../assets/img/resume-1.png";
+// import cv from "../../assets/img/resume-2.png";
+// import Lightbox from "react-image-lightbox";
+// import "react-image-lightbox/style.css";
+// import Roll from "react-reveal/Roll";
+// import Zoom from "react-reveal/Zoom";
+// import Flip from "react-reveal/Flip";
 
-const images = [cv1, cv];
+// const images = [cv1, cv];
 
-export default class CRI extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      photoIndex: 0,
-      isOpen: false,
-    };
-  }
+// export default class CRI extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       photoIndex: 0,
+//       isOpen: false,
+//     };
+//   }
 
-  render() {
-    const { photoIndex, isOpen } = this.state;
-    return (
-      <Roll right>
-        <Zoom right>
-          <Flip right>
-            <div>
-              <span className="resume">
-                <img
-                  src={cv1}
-                  onClick={() => this.setState({ isOpen: true })}
-                  className="cv_img_mouse"
-                  alt="Samira Sobhani CV preview"
-                />
-                <img
-                  src={cv}
-                  onClick={() => this.setState({ isOpen: true })}
-                  className="cv_img_mouse"
-                  alt="Samira Sobhani CV preview"
-                />
-              </span>
-              {isOpen && (
-                <Lightbox
-                  mainSrc={images[photoIndex]}
-                  nextSrc={images[(photoIndex + 1) % images.length]}
-                  prevSrc={
-                    images[(photoIndex + images.length - 1) % images.length]
-                  }
-                  onCloseRequest={() => this.setState({ isOpen: false })}
-                  onMovePrevRequest={() =>
-                    this.setState({
-                      photoIndex:
-                        (photoIndex + images.length - 1) % images.length,
-                    })
-                  }
-                  onMoveNextRequest={() =>
-                    this.setState({
-                      photoIndex: (photoIndex + 1) % images.length,
-                    })
-                  }
-                />
-              )}
-            </div>
-          </Flip>
-        </Zoom>
-      </Roll>
-    );
-  }
-}
+//   render() {
+//     const { photoIndex, isOpen } = this.state;
+//     return (
+//       <Roll right>
+//         <Zoom right>
+//           <Flip right>
+//             <div>
+//               <span className="resume">
+//                 <img
+//                   src={cv1}
+//                   onClick={() => this.setState({ isOpen: true })}
+//                   className="cv_img_mouse"
+//                   alt="Samira Sobhani CV preview"
+//                 />
+//                 <img
+//                   src={cv}
+//                   onClick={() => this.setState({ isOpen: true })}
+//                   className="cv_img_mouse"
+//                   alt="Samira Sobhani CV preview"
+//                 />
+//               </span>
+//               {isOpen && (
+//                 <Lightbox
+//                   mainSrc={images[photoIndex]}
+//                   nextSrc={images[(photoIndex + 1) % images.length]}
+//                   prevSrc={
+//                     images[(photoIndex + images.length - 1) % images.length]
+//                   }
+//                   onCloseRequest={() => this.setState({ isOpen: false })}
+//                   onMovePrevRequest={() =>
+//                     this.setState({
+//                       photoIndex:
+//                         (photoIndex + images.length - 1) % images.length,
+//                     })
+//                   }
+//                   onMoveNextRequest={() =>
+//                     this.setState({
+//                       photoIndex: (photoIndex + 1) % images.length,
+//                     })
+//                   }
+//                 />
+//               )}
+//             </div>
+//           </Flip>
+//         </Zoom>
+//       </Roll>
+//     );
+//   }
+// }

@@ -5,18 +5,18 @@
 
 .git {
   margin: 2%;
-  color: goldenrod;
+  color: gold;
 }
 
 .git:hover {
-  color: rgb(218, 165, 32, 0.788);
+  color: gold;
 }
 
 .linkedin {
   margin: 2%;
-  color: rgba(218, 165, 32, 0.787);
+  color: gold;
 }
 
 .linkedin:hover {
-  color: rgb(255, 196, 102);
+  color: gold;
 }
