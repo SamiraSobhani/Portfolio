@@ -13,47 +13,61 @@ export default function Nav() {
     <>
       <Router>
         <div className="navbar">
-          <Button
-            variant="outline-light"
-            size="lg"
-            className="home-left-aboutmme-btn"
+          <Link
+            to="/home"
+            style={{ textDecoration: "none" }}
+            className="home-left-aboutme"
           >
-            <Link
-              to="/project"
-              style={{ textDecoration: "none" }}
-              className="home-left-aboutme"
+            <Button
+              variant="outline-light"
+              size="lg"
+              className="home-left-aboutme-btn"
+            >
+              Home
+            </Button>
+          </Link>
+          &nbsp;
+          <Link
+            to="/project"
+            style={{ textDecoration: "none" }}
+            className="home-left-aboutme"
+          >
+            <Button
+              variant="outline-light"
+              size="lg"
+              className="home-left-aboutme-btn"
             >
               Projects
-            </Link>
-          </Button>{" "}
+            </Button>{" "}
+          </Link>
           &nbsp;
-          <Button
-            variant="outline-light"
-            size="lg"
-            className="home-left-aboutmme-btn"
+          <Link
+            style={{ textDecoration: "none" }}
+            to="/about"
+            className="home-left-aboutme"
           >
-            <Link
-              style={{ textDecoration: "none" }}
-              to="/about"
-              className="home-left-aboutme"
+            <Button
+              variant="outline-light"
+              size="lg"
+              className="home-left-aboutme-btn"
             >
               About Me
-            </Link>
-          </Button>
+            </Button>
+          </Link>
           &nbsp;
-          <Button
-            variant="outline-light"
-            size="lg"
-            className="home-left-aboutmme-btn"
+          <Link
+            style={{ textDecoration: "none" }}
+            to="/contact"
+            className="home-left-aboutme"
           >
-            <Link
-              style={{ textDecoration: "none" }}
-              to="/contact"
-              className="home-left-aboutme"
+            <Button
+              variant="outline-light"
+              size="lg"
+              className="home-left-aboutme-btn"
             >
               Contact Me
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         </div>
         <Switch>
           <Route exact path="/" component={Loading} />

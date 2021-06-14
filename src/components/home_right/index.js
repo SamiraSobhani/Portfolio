@@ -9,7 +9,6 @@ function Home_Right() {
     <Container className="home-right">
       <Row className="home-right-main">
         <Col xl={12}>
-          <br />
           <Image
             src={Samira}
             className="home-right-main-img"

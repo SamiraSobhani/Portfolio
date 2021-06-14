@@ -27,8 +27,8 @@
 
 .row {
   display: flex;
-  align-items: center;
-  margin-right: 0;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 #root

@@ -15,6 +15,7 @@ function SocialIcons() {
       >
         <FontAwesomeIcon className="git" icon={faGithub} />
       </a>
+      &nbsp; &nbsp;
       <a
         href="https://www.linkedin.com/in/Samira-sobhani/"
         target="_blank"
