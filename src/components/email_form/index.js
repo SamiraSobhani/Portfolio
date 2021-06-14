@@ -119,7 +119,7 @@ class Email_Form extends React.Component {
         <FormGroup controlId="formBasicMessage" className="contact_input">
           <Form.Control
             as="textarea"
-            rows="6"
+            rows="5"
             value={this.state.message}
             placeholder="Your text"
             onChange={this.handleChange.bind(this, "message")}
