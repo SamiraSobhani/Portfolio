@@ -80,7 +80,7 @@ export default class PM extends Component {
                   &nbsp;&nbsp;
                   {item.link !== false && (
                     <Card.Link href={item.link} target="_blank">
-                      <img src={GitIcon}></img>
+                      <img src={GitIcon} alt="Git"></img>
                     </Card.Link>
                   )}
                 </Card.Body>
