@@ -1,18 +1,17 @@
 .navbar {
-  height: 4rem;
+  height: 5rem;
   background-color: rgb(26, 26, 26);
   display: flex;
   justify-content: flex-end;
 }
-/* .home-left-aboutme-main {
-  position: relative;
-  z-index: -1;
-} */
+
 
 .home-left-aboutme-btn {
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  font-weight: 600;
   width: 7rem;
+  border-color: gray;
 }
 
 .home-left-aboutme-btn:hover {

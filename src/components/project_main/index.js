@@ -27,38 +27,42 @@ export default class PM extends Component {
   render() {
     return (
       <div className="projects">
-        <span className="projects__video">
-          <br />
-          <ReactVideo
-            poster={PinPalPoster}
-            src={PinPalVideo}
-            primaryColor="darkred"
-          />
-          <br />
-          <ReactVideo
-            poster={BookStorePoster}
-            src={BookStoreVideo}
-            primaryColor="darkred"
-          />
-          <br />
-          <ReactVideo
-            poster={CoffeeShopPoster}
-            src={CoffeeShopVideo}
-            primaryColor="darkred"
-          />
-          <br />
-          <ReactVideo
-            poster={BandSite}
-            src={BandSiteVideo}
-            primaryColor="darkred"
-          />
+        <span className="projects-video">
+          <div className="videos">
+            <ReactVideo
+              poster={PinPalPoster}
+              src={PinPalVideo}
+              primaryColor="goldenrod"
+            />
+          </div>
+          <div className="videos">
+            <ReactVideo
+              poster={BookStorePoster}
+              src={BookStoreVideo}
+              primaryColor="goldenrod"
+            />
+          </div>
+          <div className="videos">
+            <ReactVideo
+              poster={CoffeeShopPoster}
+              src={CoffeeShopVideo}
+              primaryColor="goldenrod"
+            />
+          </div>
+          <div className="videos">
+            <ReactVideo
+              poster={BandSite}
+              src={BandSiteVideo}
+              primaryColor="goldenrod"
+            />
+          </div>
         </span>
         <Row className="main_row">
           {info.data.map((item) => (
             <Col xl={4} key={item.id} className="card_col">
               <Card className="card_main">
                 <blockquote className="blockquote mb-0 card-body">
-                  <h2>{item.name}</h2>
+                  <h4>{item.name}</h4>
                   <p>{item.description}</p>
                   <footer className="blockquote-footer">
                     Built using :{" "}
@@ -72,7 +76,6 @@ export default class PM extends Component {
                     }
                     className="icon"
                     size="lg"
-                    // icon={faImages}
                   />{" "}
                   &nbsp;&nbsp;
                   {item.link !== false && (

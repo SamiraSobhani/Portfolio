@@ -19,11 +19,7 @@ const PCD = () => {
               </Col>
               <Col xl={12}>
                 <Card.Title className="repoName">Name: {item.name}</Card.Title>
-                <Card.Subtitle className="repoInfo">
-                  Location: {item.full_name} <br />
-                  Created: {item.created_at} <br />
-                  Updated: {item.updated_at}
-                </Card.Subtitle>
+                
                 <Card.Body className="project_card_main">
       
                   <ToastsContainer store={ToastsStore} timer="10000" />
