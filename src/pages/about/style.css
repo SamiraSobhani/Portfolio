@@ -86,7 +86,7 @@
   width: 28%;
   background-color: gold;
   text-align: center;
-  height: 165rem;
+  height: 185rem;
   margin-left: 4rem;
   position: absolute;
   top: 4rem;
@@ -146,4 +146,9 @@ h6 {
 }
 .job-description {
   line-height: 1.8rem;
+}
+.resume-footer {
+  text-align: center;
+  margin-top: 4.5rem;
+  font-weight: 600;
 }
