@@ -27,7 +27,7 @@ export default class PM extends Component {
   render() {
     return (
       <div className="projects">
-        <span className="projects-video">
+        <span className="projects_video">
           <div className="videos">
             <ReactVideo
               poster={PinPalPoster}
@@ -57,9 +57,9 @@ export default class PM extends Component {
             />
           </div>
         </span>
-        <Row className="main_row">
+        <div className="cards">
           {info.data.map((item) => (
-            <Col xl={4} key={item.id} className="card_col">
+            <Col xl={7} key={item.id} className="card_col">
               <Card className="card_main">
                 <blockquote className="blockquote mb-0 card-body">
                   <h4>{item.name}</h4>
@@ -87,7 +87,7 @@ export default class PM extends Component {
               </Card>
             </Col>
           ))}
-        </Row>
+        </div>
       </div>
     );
   }

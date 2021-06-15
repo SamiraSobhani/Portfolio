@@ -4,7 +4,7 @@
   height: 100%;
   width: 100%;
   color: white;
-  background-color: rgb(9, 9, 9);
+  background-color: white;
 }
 
 .project_header {
@@ -17,19 +17,13 @@
   font-size: 20px;
 }
 
-.projects__video {
-  width: 50%;
-  margin-left: 3.5rem;
-}
-.main_row {
-  width: 42%;
-  display: inline-block;
-  flex: none;
+.cards {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .card_col {
-  min-width: 80%;
-}
-.projects {
-  display: flex;
-  flex-direction: row;
+  min-width: 75%;
 }

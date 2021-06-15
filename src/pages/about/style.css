@@ -1,5 +1,5 @@
 .About-header {
-  background-color: #090909;
+  background-color:white;
 }
 
 .About-main {
@@ -67,7 +67,7 @@
 }
 
 .myresume {
-  background-color: black;
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -79,7 +79,7 @@
 .resume-right {
   margin-left: 37%;
   width: 60%;
-  color: white;
+  color: black;
   display: block;
 }
 .resume-left {
@@ -99,4 +99,29 @@
 .tech {
   display: flex;
   justify-content: space-between;
+}
+.education {
+  display: flex;
+  justify-content: space-between;
+}
+.education-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+.experience {
+  display: flex;
+  justify-content: space-between;
+}
+.experience-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h4 {
+  color: gold;
 }

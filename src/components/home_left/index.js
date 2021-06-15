@@ -12,9 +12,12 @@ function Home_Left() {
           <p className="second_line">
             I am <strong>Samira Sobhani</strong>
           </p>
+          <h5 className="typical">Full-Stack Web Developer ... </h5>
           <h3>
             <ReactTypingEffect
-              text="Full Stack Web Developer ... "
+              text="I am not a quitter but a die-hard. 
+              I have improved from junior travel agent to senior airline supervisor. 
+              I look forward to honing my talents and increasingly contributing to an impactful company. "
               className="typical"
               speed="100"
               eraseDelay="500000"

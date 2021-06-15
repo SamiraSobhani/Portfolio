@@ -25,7 +25,7 @@
   border-radius: 0.3rem;
   text-align: center;
   background: transparent;
-  border-color: white;
+  border-color: gray;
   min-height: 6.5vh;
 }
 
@@ -47,6 +47,6 @@
 .contact-email-text-btn {
   font-size: 0.85rem;
   font-weight: 600;
-  color: white;
-  border-color: white;
+  color: gray;
+  border-color: gray;
 }

@@ -12,8 +12,8 @@
 
 .card_main {
   background: rgba(255, 255, 255, 0.1);
-  color: white;
-  border-color: white;
+  color: black;
+  border-color: gray;
   text-align: left;
   height: 14rem;
 }
@@ -24,17 +24,16 @@
   color: gold;
 }
 .card-body a {
-  margin-left: 16rem;
+  margin-left: 18rem;
 }
 .card_main:hover {
   transition: all 0.2s ease-out;
   top: -4px;
-  background: rgba(26, 26, 26);
-  box-shadow: 0px 4px 35px rgb(255, 255, 255);
+  background: gray;
 }
 
 .blockquote-footer {
-  color: white;
+  color: black;
   font-weight: 300;
   font-size: 0.85rem;
 }
@@ -47,13 +46,21 @@
 .icon:hover {
   color: rgb(255, 196, 102);
 }
-.project-video {
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+.projects_video {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 55%;
 }
 .videos {
-  width: 70%;
+  width: 90%;
   margin-left: 4rem;
   margin-top: 2rem;
+  border: gray solid 0.1rem;
 }

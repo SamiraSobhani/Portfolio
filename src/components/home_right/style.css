@@ -8,11 +8,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 8rem;
 }
 
 .home-right-main-img {
-  height: 52vh;
-  width: 52vh;
+  height: 50vh;
+  width: 50vh;
   margin-top: 3rem;
   display: block;
   border-radius: 50%;

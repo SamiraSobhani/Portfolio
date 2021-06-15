@@ -6,7 +6,7 @@
   background-color: gold;
   position: absolute;
   top: -8rem;
-  left: 5rem;
+  left: 8rem;
 }
 .home-left-main {
   height: 100%;
@@ -15,7 +15,7 @@
 }
 
 .home-left-main-col {
-  margin-top: 3rem;
+  margin-top: 3.5rem;
   margin-left: 0;
   margin-right: 0;
   display: block;

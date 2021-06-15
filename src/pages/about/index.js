@@ -86,18 +86,17 @@ class About extends Component {
             </span>
           </div>
           <h4>E D U C A T I O N</h4>
-          <div>
-            <span>
-              <p>BrainStation</p>
-              <p> Web Development Diploma </p>
-              <p>SoftwareGuild</p>
+          <div className="education">
+            <span className="education-left">
+              <p> - BrainStation</p>
+              <p>Web Development Diploma </p>
+              <p> - SoftwareGuild</p>
               <p>Java Certification</p>
-              <p>Azad University</p>
+              <p> - Azad University</p>
               <p>Bachelors in Economics, Theoretical Economics </p>
             </span>
-          </div>
-          <div>
-            <span>
+
+            <span className="education-right">
               <p>2021, VANCOUVER, CA</p>
               <p> 2020, MINNEAPOLIS, US</p>
               <p>TEHRAN, IRAN</p>
@@ -113,16 +112,15 @@ class About extends Component {
             connects clients and suppliers. Available suppliers can accept to do
             the project within the time that the client requested.
           </p>
-          <div>
-            <span>
+          <div className="projects">
+            <span className="projects-left">
               <p>Front-End technologies:</p>
               <p>Google map API - reCAPTCHA v3</p>
               <p>Material UI - JWT (JSON Web tokens) </p>
               <p>JavaScript - React - HTML - Sass/CSS </p>
             </span>
-          </div>
-          <div>
-            <span>
+
+            <span className="projects-right">
               <p>Server technologies :</p>
               <p>MySQL - OAuth2 -OpenID</p>
               <p>Spring Boot - Spring Security - Spring Data</p>
@@ -130,15 +128,15 @@ class About extends Component {
             </span>
           </div>
           <h4>E X P E R I E N C E</h4>
-          <div>
-            <span>
-              <p>Software Developer Internship | ABOMIS Innovations Inc. </p>
+          <div className="experience">
+            <span className="experience-left">
+              <p> - Software Developer Internship | ABOMIS Innovations Inc. </p>
               <p>Developed passenger boarding pass </p>
               <p>
                 Involved in DCS(Departure Control System) coding and acted as a
                 consultant using my experience in Airline and aviation{" "}
               </p>
-              <p>Travel Consultant | Direct Travel </p>
+              <p> - Travel Consultant | Direct Travel </p>
               <p>
                 Investigated all client inquiries to identify the correct
                 solutions.
@@ -147,7 +145,7 @@ class About extends Component {
                 Provided customers with recommendations for services that best
                 fit their needs and budget constraints.
               </p>
-              <p>Senior Officer of Reservation/ Ticketing | Oman Air </p>
+              <p> - Senior Officer of Reservation/ Ticketing | Oman Air </p>
               <p>
                 Collaborated with team members to streamline processes to
                 perform under pressure and meet deadlines effectively
@@ -159,15 +157,14 @@ class About extends Component {
                 Demonstrated customer service skills by assisting all customers
                 in addressing their needs
               </p>
-              <p>Co-Manager | Atourban Advertising Co </p>
+              <h5> - Co-Manager | Atourban Advertising Co </h5>
               <p>
                 Managed advertising strategies, customer retention strategies,
                 and the quality control of services offered to customers
               </p>
             </span>
-          </div>
-          <div>
-            <span>
+
+            <span className="experience-right">
               <p>APR 2021,VANCOUVER, BC</p>
               <p>SEP 2012 - MAR 2018, TEHRAN,IRAN </p>
               <p>JAN 2008 - AUG 2012, TEHRAN,IRAN</p>

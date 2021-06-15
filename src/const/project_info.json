@@ -4,7 +4,7 @@
       "id": 0,
       "name": "PinPal - Capstone Project",
       "tools": "React jS, Recaptcha v3, JWT, Google Maps API, Axios, Sass",
-      "description": "Map-based full-stack web application helps customers to connect suppliers. Customer adds job post on map and supplier can apply for it.",
+      "description": " ''https://www.pinpal-market.com'' Map-based full-stack web application helps customers to connect suppliers. Customer adds job post on map and supplier can apply for it.",
       "link": "https://github.com/SamiraSobhani/PinMarket.git",
       "image": []
     },
