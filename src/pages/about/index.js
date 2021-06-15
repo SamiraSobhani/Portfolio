@@ -35,6 +35,7 @@ class About extends Component {
             &nbsp;A developer's journey requires constant learning, no matter how
               long you have been on the road.{" "}
             </p>
+            
           </div>
           <h4 className="resume-header">S K I L L S</h4>
           <div className="resume-content">
