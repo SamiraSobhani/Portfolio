@@ -1,5 +1,5 @@
 .About-header {
-  background-color:white;
+  background-color: white;
 }
 
 .About-main {
@@ -122,6 +122,9 @@
   flex-direction: column;
   justify-content: space-between;
 }
-h4 {
+.resume-header  {
   color: gold;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }

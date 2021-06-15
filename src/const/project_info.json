@@ -28,7 +28,7 @@
       "id": 3,
       "name": "Nitro Coffee",
       "tools": "HTML, CSS, Animation, JavaScript",
-      "description": "",
+      "description": "Single page web application to show CSS animation feature",
       "link": "https://github.com/SamiraSobhani/CoffeeShop.git",
       "image": [],
       "View": "https://outklip.com/v/-Mb-pa8uqY--jpFTVGmq"
@@ -37,7 +37,7 @@
       "id": 4,
       "name": "Vending Machine",
       "tools": "Java",
-      "description": "",
+      "description": "Implemented CRUD functionality with JAVA",
       "link": "https://github.com/SamiraSobhani/Vending-Machine.git",
       "image": []
     },
