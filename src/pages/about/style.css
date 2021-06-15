@@ -86,7 +86,7 @@
   width: 28%;
   background-color: gold;
   text-align: center;
-  height: 185rem;
+  height: 155rem;
   margin-left: 4rem;
   position: absolute;
   top: 4rem;
@@ -128,17 +128,18 @@
 }
 .resume-header {
   color: gold;
+  font-size:1.2rem ;
   font-weight: 700;
   margin-top: 1.6rem;
   margin-bottom: 1rem;
 }
 .resume-content {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 600;
-  line-height: 1.2rem;
+  line-height: 0.7rem;
 }
 h6 {
-  line-height: 2.4rem;
+  line-height: 1.8rem;
   font-weight: 700;
 }
 .pinpal-content {

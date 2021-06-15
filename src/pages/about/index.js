@@ -25,7 +25,7 @@ class About extends Component {
         <div className="resume-right">
           <h4 className="resume-header">O B J E C T I V E</h4>
           <div className="resume-content">
-            <p>&nbsp;&nbsp;Earned Certification in Full-stack Development.</p>
+            <p>&nbsp;Earned Certification in Full-stack Development.</p>
             <p>
             &nbsp;My journey started by learning: Java, JavaScript, SQL, React,
               Nodejs, HTML and CSS/Sass.
