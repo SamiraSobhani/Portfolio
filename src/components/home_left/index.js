@@ -13,7 +13,8 @@ function Home_Left() {
             I am <strong>Samira Sobhani</strong>
           </p>
           <h5 className="typical">Full-Stack Web Developer ... </h5>
-          <h3>
+          <br/>
+          <h3 className="home-description">
             <ReactTypingEffect
               text="I am not a quitter but a die-hard. 
               I have improved from junior travel agent to senior airline supervisor. 

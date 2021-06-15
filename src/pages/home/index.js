@@ -18,10 +18,10 @@ function Home() {
       </Helmet>
         <Container className="App-header" fluid={true}>
           <Row className="App-main">
-            <Col xl={7} className="App-left">
+            <Col xl={6} className="App-left">
               <HomeLeft />
             </Col>
-            <Col xl={5} className="App-right">
+            <Col xl={6} className="App-right">
               <HomeRight />
             </Col>
           </Row>
