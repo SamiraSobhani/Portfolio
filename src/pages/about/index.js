@@ -23,36 +23,36 @@ class About extends Component {
         <div className="resume-right">
           <h4 className="resume-header">O B J E C T I V E</h4>
           <div className="resume-content">
-            <p>Earned Certification in Full-stack Development.</p>
+            <p>&nbsp;&nbsp;Earned Certification in Full-stack Development.</p>
             <p>
-              My journey started by learning: Java, JavaScript, SQL, React,
+            &nbsp;My journey started by learning: Java, JavaScript, SQL, React,
               Nodejs, HTML and CSS/Sass.
             </p>
-            <p>It's just the beginning…</p>
+            <p>&nbsp;It's just the beginning…</p>
             <p>
-              A developer's journey requires constant learning, no matter how
+            &nbsp;A developer's journey requires constant learning, no matter how
               long you have been on the road.{" "}
             </p>
           </div>
           <h4 className="resume-header">S K I L L S</h4>
           <div className="resume-content">
-            <h6>Languages: Java, JavaScript</h6>
-            <h6>Database: Relational DataBase (MySQL, Oracle)</h6>
-            <h6>Framework: Spring </h6>
-            <h6>Industry Knowledge: </h6>
+            <h6> - Languages: Java, JavaScript</h6>
+            <h6> - Database: Relational DataBase (MySQL, Oracle)</h6>
+            <h6> - Framework: Spring </h6>
+            <h6> - Industry Knowledge: </h6>
             <div className="knowledge">
               <span>
-                <p>Agile methodology (Jira)</p>
-                <p>Object-oriented programming (OOP)</p>
-                <p>Software Development Life Cycle(SDLC)</p>
+                <p>&nbsp;&nbsp;Agile methodology (Jira)</p>
+                <p>&nbsp;&nbsp;Object-oriented programming (OOP)</p>
+                <p>&nbsp;&nbsp;Software Development Life Cycle(SDLC)</p>
               </span>
-              <span>
+              <span className="knowledge-right">
                 <p>Unit Testing</p>
                 <p>Test-Driven Development</p>
                 <p>Responsive Design</p>
               </span>
             </div>
-            <h6>Technology Stack: </h6>
+            <h6> - Technology Stack: </h6>
             <div className="tech">
               <span>
                 <p>React.js </p>
@@ -107,29 +107,29 @@ class About extends Component {
 
           <h4 className="resume-header">P R O J E C T S </h4>
           <div className="resume-content">
-          <h6>
-            PinPal <span> "https://www.pinpal-market.com"</span>
-          </h6>
-          <p>
-            PinPal is a map base full-stack Web Application that directly
-            connects clients and suppliers. Available suppliers can accept to do
-            the project within the time that the client requested.
-          </p>
-          <div className="projects">
-            <span className="projects-left">
-              <h6>Front-End technologies:</h6>
-              <p>Google map API - reCAPTCHA v3</p>
-              <p>Material UI - JWT (JSON Web tokens) </p>
-              <p>JavaScript - React - HTML - Sass/CSS </p>
-            </span>
+            <h6>
+            &nbsp;PinPal <span>&nbsp; &nbsp;&nbsp;  "https://www.pinpal-market.com"</span>
+            </h6>
+            <p className="pinpal-content">
+              PinPal is a map base full-stack Web Application that directly
+              connects clients and suppliers. Available suppliers can accept to
+              do the project within the time that the client requested.
+            </p>
+            <div className="projects">
+              <span className="projects-left">
+                <h6> - Front-End technologies:</h6>
+                <p>Google map API - reCAPTCHA v3</p>
+                <p>Material UI - JWT (JSON Web tokens) </p>
+                <p>JavaScript - React - HTML - Sass/CSS </p>
+              </span>
 
-            <span className="projects-right">
-              <h6>Server technologies :</h6>
-              <p>MySQL - OAuth2 -OpenID</p>
-              <p>Spring Boot - Spring Security - Spring Data</p>
-              <p>JAVA</p>
-            </span>
-          </div>
+              <span className="projects-right">
+                <h6> - Server technologies :</h6>
+                <p>MySQL - OAuth2 -OpenID</p>
+                <p>Spring Boot - Spring Security - Spring Data</p>
+                <p>JAVA</p>
+              </span>
+            </div>
           </div>
           <h4 className="resume-header">E X P E R I E N C E</h4>
           <div className="experience resume-content">
@@ -138,36 +138,39 @@ class About extends Component {
                 {" "}
                 - Software Developer Internship | ABOMIS Innovations Inc.{" "}
               </h6>
-              <p>Developed passenger boarding pass </p>
-              <p>
-                Involved in DCS(Departure Control System) coding and acted as a
-                consultant using my experience in Airline and aviation{" "}
+              <p> &nbsp;  &nbsp;- Developed passenger boarding pass </p>
+              <p className="job-description">
+              &nbsp;  &nbsp;- Involved in DCS(Departure Control System) coding and acted as a
+                consultant using <br />&nbsp; my experience in Airline and aviation{" "}
               </p>
               <h6> - Travel Consultant | Direct Travel </h6>
               <p>
-                Investigated all client inquiries to identify the correct
+              &nbsp;  &nbsp;- Investigated all client inquiries to identify the correct
                 solutions.
               </p>
-              <p>
-                Provided customers with recommendations for services that best
-                fit their needs and budget constraints.
+              <p className="job-description">
+              &nbsp;  &nbsp;-  Provided customers with recommendations for services that best
+                fit their needs and <br />&nbsp; budget constraints.
               </p>
               <h6> - Senior Officer of Reservation/ Ticketing | Oman Air </h6>
-              <p>
-                Collaborated with team members to streamline processes to
-                perform under pressure and meet deadlines effectively
+              <p className="job-description">
+              &nbsp;  &nbsp;- Collaborated with team members to streamline processes to
+                perform under pressure
+                <br />&nbsp; and meet deadlines effectively
               </p>
-              <p>Coach, monitor, and train teammates</p>
+              <p> &nbsp;  &nbsp;- Coach, monitor, and train teammates</p>
               <h6> - Travel Agent | Ostoureh Parvaz travel agency </h6>
               <p>
                 {" "}
-                Demonstrated customer service skills by assisting all customers
+                &nbsp;  &nbsp;- Demonstrated customer service skills by assisting all customers
                 in addressing their needs
               </p>
               <h6> - Co-Manager | Atourban Advertising Co </h6>
-              <p>
-                Managed advertising strategies, customer retention strategies,
-                and the quality control of services offered to customers
+              <p className="job-description">
+                
+              &nbsp;  &nbsp;- Managed advertising strategies, customer retention strategies,
+                and the quality control of
+                <br />&nbsp; services offered to customers
               </p>
             </span>
 

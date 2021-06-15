@@ -94,11 +94,15 @@
 }
 .knowledge {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-left: -2.5rem;
+}
+.knowledge-right {
+  margin-left: -6rem;
 }
 .tech {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .education {
   display: flex;
@@ -122,9 +126,24 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.resume-header  {
+.resume-header {
   color: gold;
   font-weight: 700;
-  margin-top: 1rem;
+  margin-top: 1.6rem;
   margin-bottom: 1rem;
+}
+.resume-content {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.2rem;
+}
+h6 {
+  line-height: 2.4rem;
+  font-weight: 700;
+}
+.pinpal-content {
+  line-height: 1.9rem;
+}
+.job-description {
+  line-height: 1.8rem;
 }
