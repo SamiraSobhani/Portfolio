@@ -1,10 +1,11 @@
 .Contact-header {
   background-color: white;
   color: rgb(230, 200, 154);
+  height: 75vh;
 }
 
 .Contact-main {
-  min-height: 88vh;
+  height: 70vh;
 }
 .form-group {
   color: rgb(230, 200, 154);

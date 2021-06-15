@@ -109,6 +109,7 @@
   justify-content: space-between;
 }
 .education-right {
+  font-size: 0.85rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -122,6 +123,7 @@
   justify-content: space-between;
 }
 .experience-right {
+  font-size: 0.85rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

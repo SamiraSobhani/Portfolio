@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Roboto+Mono|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap");
+
 
 .Contact-text {
   text-align: center;
@@ -13,20 +13,22 @@
 }
 
 .p-heading2 {
-  font-size: 0.98rem;
+  font-size: 1.2rem;
+  font-weight: 600;
   padding: 2.5%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Sulphur Point", sans-serif;
 }
 
 .contact-left-footer {
   width: 100%;
+  text-align: center;
   font-size: 1.7rem;
 }
 .contact-me {
   background-color: gold;
   width: 75%;
-  height: 90vh;
+  height: 39.5rem;
   margin-left: 4rem;
   position: absolute;
-  top: -28rem;
+  top: -24.5rem;
 }
