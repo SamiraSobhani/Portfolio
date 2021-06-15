@@ -13,10 +13,8 @@ class About extends Component {
           <h4>F U L L S T A C K</h4>
           <h4>D E V E L O P E R</h4>
           <p>Tel: (604) 418 6977</p>
+          <p> Vancouver , BC</p>
           <p>Email: sobhani.samira@gmail.com</p>
-          <p>Address: 1370 Clyde Ave, </p>
-          <p>West Vancouver,</p>
-          <p>BC, V7T 1E7</p>
           <p>linkedin.com/in/samira-sobhani</p>
           <p>github.com/SamiraSobhani</p>
           <p>https://samirasobhani.netlify.app</p>

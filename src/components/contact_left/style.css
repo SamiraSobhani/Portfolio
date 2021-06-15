@@ -4,7 +4,7 @@
 .Contact-text {
   text-align: center;
   color: rgb(26, 26, 26);
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 .p-heading1 {
@@ -25,8 +25,8 @@
 .contact-me {
   background-color: gold;
   width: 75%;
-  height: 85vh;
+  height: 90vh;
   margin-left: 4rem;
   position: absolute;
-  top: -26rem;
+  top: -28rem;
 }

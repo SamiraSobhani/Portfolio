@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../project_main/style.css";
-import { Col, Card, Row } from "react-bootstrap";
+import { Col, Card } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import info from "../../const/project_info.json";
 import { ReactVideo } from "reactjs-media";
@@ -59,7 +59,7 @@ export default class PM extends Component {
         </span>
         <div className="cards">
           {info.data.map((item) => (
-            <Col xl={7} key={item.id} className="card_col">
+            <Col xl={1} key={item.id} className="card_col">
               <Card className="card_main">
                 <blockquote className="blockquote mb-0 card-body">
                   <h4>{item.name}</h4>

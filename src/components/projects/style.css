@@ -16,14 +16,3 @@
   text-align: right;
   font-size: 20px;
 }
-
-.cards {
-  width: 45%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.card_col {
-  min-width: 75%;
-}
