@@ -10,10 +10,10 @@ class About extends Component {
       <div className="myresume">
         <div className="resume-left">
           <h1 className="resume-name">SAMIRA SOBHANI</h1>
-          <br/>
+          <br />
           <h4>F U L L - S T A C K</h4>
           <h4>D E V E L O P E R</h4>
-          <br/>
+          <br />
           <p>Tel: (604) 418 6977</p>
           <p> Vancouver , BC</p>
           <p>Email: sobhani.samira@gmail.com</p>
@@ -27,15 +27,14 @@ class About extends Component {
           <div className="resume-content">
             <p>&nbsp;Earned Certification in Full-stack Development.</p>
             <p>
-            &nbsp;My journey started by learning: Java, JavaScript, SQL, React,
-              Nodejs, HTML and CSS/Sass.
+              &nbsp;My journey started by learning: Java, JavaScript, SQL,
+              React, Nodejs, HTML and CSS/Sass.
             </p>
             <p>&nbsp;It's just the beginning…</p>
             <p>
-            &nbsp;A developer's journey requires constant learning, no matter how
-              long you have been on the road.{" "}
+              &nbsp;A developer's journey requires constant learning, no matter
+              how long you have been on the road.{" "}
             </p>
-            
           </div>
           <h4 className="resume-header">S K I L L S</h4>
           <div className="resume-content">
@@ -45,9 +44,9 @@ class About extends Component {
             <h6> - Industry Knowledge: </h6>
             <div className="knowledge">
               <span>
-                <p>&nbsp;&nbsp;Agile methodology (Jira)</p>
-                <p>&nbsp;&nbsp;Object-oriented programming (OOP)</p>
-                <p>&nbsp;&nbsp;Software Development Life Cycle(SDLC)</p>
+                <p>Agile methodology (Jira)</p>
+                <p>Object-oriented programming (OOP)</p>
+                <p>Software Development Life Cycle(SDLC)</p>
               </span>
               <span className="knowledge-right">
                 <p>Unit Testing</p>
@@ -65,6 +64,8 @@ class About extends Component {
                 <p>Zustand</p>
                 <p>Web APIs</p>
                 <p>User Authentication </p>
+              </span>
+              <span>
                 <p>Netlify </p>
                 <p>Web Sockets</p>
                 <p>Document Object Model (DOM)</p>
@@ -81,6 +82,8 @@ class About extends Component {
                 <p>Express.js</p>
                 <p>OpenID</p>
                 <p>OAuth2</p>
+              </span>
+              <span>
                 <p>ORM tools such as Hibernate</p>
                 <p>JDBC connection</p>
                 <p>Knex</p>
@@ -111,7 +114,8 @@ class About extends Component {
           <h4 className="resume-header">P R O J E C T S </h4>
           <div className="resume-content">
             <h6>
-            &nbsp;PinPal <span>&nbsp; &nbsp;&nbsp;  "https://www.pinpal-market.com"</span>
+              &nbsp;PinPal{" "}
+              <span>&nbsp; &nbsp;&nbsp; "https://www.pinpal-market.com"</span>
             </h6>
             <p className="pinpal-content">
               PinPal is a map base full-stack Web Application that directly
@@ -141,39 +145,39 @@ class About extends Component {
                 {" "}
                 - Software Developer Internship | ABOMIS Innovations Inc.{" "}
               </h6>
-              <p> &nbsp;  &nbsp;- Developed passenger boarding pass </p>
+              <p> &nbsp; &nbsp;- Developed passenger boarding pass </p>
               <p className="job-description">
-              &nbsp;  &nbsp;- Involved in DCS(Departure Control System) coding and acted as a
-                consultant using <br />&nbsp; my experience in Airline and aviation{" "}
+                &nbsp; &nbsp;- Involved in DCS(Departure Control System) coding
+                and acted as a consultant using my experience in Airline and
+                aviation{" "}
               </p>
               <h6> - Travel Consultant | Direct Travel </h6>
               <p>
-              &nbsp;  &nbsp;- Investigated all client inquiries to identify the correct
-                solutions.
+                &nbsp; &nbsp;- Investigated all client inquiries to identify the
+                correct solutions.
               </p>
               <p className="job-description">
-              &nbsp;  &nbsp;-  Provided customers with recommendations for services that best
-                fit their needs and <br />&nbsp; budget constraints.
+                &nbsp; &nbsp;- Provided customers with recommendations for
+                services that best fit their needs and budget constraints.
               </p>
               <h6> - Senior Officer of Reservation/ Ticketing | Oman Air </h6>
               <p className="job-description">
-              &nbsp;  &nbsp;- Collaborated with team members to streamline processes to
-                perform under pressure
-                <br />&nbsp; and meet deadlines effectively
+                &nbsp; &nbsp;- Collaborated with team members to streamline
+                processes to perform under pressure and meet deadlines
+                effectively
               </p>
-              <p> &nbsp;  &nbsp;- Coach, monitor, and train teammates</p>
+              <p> &nbsp; &nbsp;- Coach, monitor, and train teammates</p>
               <h6> - Travel Agent | Ostoureh Parvaz travel agency </h6>
               <p>
                 {" "}
-                &nbsp;  &nbsp;- Demonstrated customer service skills by assisting all customers
-                in addressing their needs
+                &nbsp; &nbsp;- Demonstrated customer service skills by assisting
+                all customers in addressing their needs
               </p>
               <h6> - Co-Manager | Atourban Advertising Co </h6>
               <p className="job-description">
-                
-              &nbsp;  &nbsp;- Managed advertising strategies, customer retention strategies,
-                and the quality control of
-                <br />&nbsp; services offered to customers
+                &nbsp; &nbsp;- Managed advertising strategies, customer
+                retention strategies, and the quality control of services
+                offered to customers
               </p>
             </span>
 

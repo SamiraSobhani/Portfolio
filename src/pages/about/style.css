@@ -88,7 +88,7 @@
   width: 28%;
   background-color: gold;
   text-align: center;
-  height: 150rem;
+  height: 130rem;
   margin-left: 4rem;
   position: absolute;
   top: 4rem;
@@ -96,12 +96,10 @@
 }
 .knowledge {
   display: flex;
-  justify-content: space-around;
-  margin-left: -2.5rem;
+  justify-content: space-evenly;
+  margin-left: -10rem;
 }
-.knowledge-right {
-  margin-left: -6rem;
-}
+
 .tech {
   display: flex;
   justify-content: space-around;
@@ -136,14 +134,12 @@
   font-weight: 700;
   margin-top: 1.6rem;
   margin-bottom: 1rem;
-  background-color: lightgray
-  
+  background-color: lightgray;
 }
 .resume-content {
   font-size: 0.85rem;
   font-weight: 600;
   line-height: 0.7rem;
-  
 }
 h6 {
   line-height: 1.5rem;
