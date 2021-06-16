@@ -64,6 +64,7 @@
   > a
   > p {
   margin-left: 1rem;
+  width: 100%;
 }
 
 .myresume {
@@ -75,6 +76,7 @@
 }
 .resume-name {
   margin-top: 5rem;
+  font-size: 2rem;
 }
 .resume-right {
   margin-left: 37%;

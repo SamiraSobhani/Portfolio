@@ -11,7 +11,7 @@ class About extends Component {
         <div className="resume-left">
           <h1 className="resume-name">SAMIRA SOBHANI</h1>
           <br/>
-          <h4>F U L L S T A C K</h4>
+          <h4>F U L L - S T A C K</h4>
           <h4>D E V E L O P E R</h4>
           <br/>
           <p>Tel: (604) 418 6977</p>

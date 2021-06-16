@@ -1,12 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Abel|Raleway|Raleway+Dot|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap");
 
 .home-left {
-  height: 34rem;
-  width: 26rem;
+  
+  width: 100%;
   background-color: gold;
-  position: absolute;
-  top: -10rem;
-  left: 8rem;
 }
 .home-left-main {
   height: 100%;
@@ -15,30 +12,75 @@
 }
 
 .home-left-main-col {
-  margin-top: 3.5rem;
-  margin-left: 0;
-  margin-right: 0;
-  display: block;
-  background-color: gold;
-  height: 85vh;
+  height: 65vh;
+  margin-top: 1rem;
 }
 
 .first-line {
-  font-size: 3rem;
+  padding-top: 1.2rem;
+  font-size: 2rem;
   font-family: "Sulphur Point", sans-serif;
 }
-
 .second_line {
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: "Julius Sans One", sans-serif;
 }
-
 .typical {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-family: "Sulphur Point", sans-serif;
-
 }
-.home-description{
-  margin-left:2.4rem;
-  margin-right: 3.3rem;
+.home-description {
+  margin-left: 2.4rem;
+  margin-right: 2rem;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+
+@media (min-width: 768px) {
+  .first-line {
+    font-size: 2rem;
+  }
+  .home-left-main-col {
+    height: 100vh;
+    margin-top: 3.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+   
+    height: 85vh;
+  }
+  .home-left {
+   
+    width: 36%;
+    position: absolute;
+    top:6rem;
+    left: 5%;
+  }
+
+  .second_line {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .typical {
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+  .home-description{
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .first-line {
+    font-size: 2.6rem;
+  }
+  .second_line {
+    font-size: 1.7rem;
+  }
+  .typical {
+    font-size: 1rem;
+  }
+  .home-description{
+    font-size: 1.3rem;
+  }
 }

@@ -1,7 +1,14 @@
 .header {
   background-image: url("../../assets/img/mountains.jpg");
-  height: 8rem;
+  height: 4rem;
   background-position: center;
   background-size: cover;
+  /* width: 100%; */
 }
+@media (min-width: 768px) {
+  .header {
+    height: 8rem;
 
+    width: 100%;
+  }
+}

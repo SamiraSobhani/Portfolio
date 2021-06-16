@@ -1,25 +1,40 @@
 .navbar {
-  height: 6rem;
+  height: 3rem;
   background-color: rgb(26, 26, 26);
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  padding-right: 3%;
+  
 }
-
 
 .home-left-aboutme-btn {
   color: white;
-  font-size: 0.7rem;
+  font-size: 0.45rem;
   font-weight: 600;
-  width: 7rem;
+  width: 3rem;
+  padding: 0rem;
+  border: none;
   border-color: gray;
 }
 
 .home-left-aboutme-btn:hover {
   color: black;
   background: gray;
-  border-radius: 0.35rem;
+  border-radius: 0.1rem;
 }
 
 .home-left-aboutme-btn:hover {
   background: gray;
+}
+@media (min-width: 768px) {
+  .navbar {
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .home-left-aboutme-btn {
+    font-size: 0.7rem;
+    width: 5.7rem;
+  }
 }

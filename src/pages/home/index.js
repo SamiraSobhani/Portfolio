@@ -2,7 +2,7 @@ import React from "react";
 import "../home/style.css";
 import HomeLeft from "../../components/home_left";
 import HomeRight from "../../components/home_right";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 
 function Home() {
@@ -16,17 +16,17 @@ function Home() {
           content="Samira Sobhani | Full Stack Web Developer"
         />
       </Helmet>
-        <Container className="App-header" fluid={true}>
-          <Row className="App-main">
-            <Col xl={6} className="App-left">
-              <HomeLeft />
-            </Col>
-            <Col xl={6} className="App-right">
-              <HomeRight />
-            </Col>
-          </Row>
-          <Row className="App-footer"></Row>
-        </Container>
+      <Container className="App-header" fluid={true}>
+        <div className="App-main">
+          <div className="App-left">
+            <HomeLeft />
+          </div>
+          <div className="App-right">
+            <HomeRight />
+          </div>
+        </div>
+       
+      </Container>
     </div>
   );
 }

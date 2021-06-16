@@ -18,29 +18,21 @@ export default function Nav() {
             style={{ textDecoration: "none" }}
             className="home-left-aboutme"
           >
-            <Button
-              variant="outline-light"
-              size="lg"
-              className="home-left-aboutme-btn"
-            >
+            <Button variant="outline-light" className="home-left-aboutme-btn">
               Home
             </Button>
           </Link>
-          &nbsp;
+
           <Link
             to="/project"
             style={{ textDecoration: "none" }}
             className="home-left-aboutme"
           >
-            <Button
-              variant="outline-light"
-              size="lg"
-              className="home-left-aboutme-btn"
-            >
+            <Button variant="outline-light" className="home-left-aboutme-btn">
               Projects
             </Button>{" "}
           </Link>
-          &nbsp;
+
           <Link
             style={{ textDecoration: "none" }}
             to="/about"
@@ -48,25 +40,22 @@ export default function Nav() {
           >
             <Button
               variant="outline-light"
-              size="lg"
+              // size="lg"
               className="home-left-aboutme-btn"
             >
-              About Me
+              Resume
             </Button>
           </Link>
-          &nbsp;
+
           <Link
             style={{ textDecoration: "none" }}
             to="/contact"
             className="home-left-aboutme"
           >
-            <Button
-              variant="outline-light"
-              size="lg"
-              className="home-left-aboutme-btn"
-            >
+            <Button variant="outline-light" className="home-left-aboutme-btn">
               Contact Me
             </Button>
+           
           </Link>
         </div>
         <Switch>

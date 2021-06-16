@@ -6,10 +6,10 @@ import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../src/components/header";
 ReactDOM.render(
-  <div>
+  <>
     <Header />
     <App />
-  </div>,
+  </>,
   document.getElementById("root")
 );
 
