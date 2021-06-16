@@ -2,7 +2,7 @@ import React from "react";
 import "../home/style.css";
 import HomeLeft from "../../components/home_left";
 import HomeRight from "../../components/home_right";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 
 function Home() {
