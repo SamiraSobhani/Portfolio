@@ -11,15 +11,15 @@ class About extends Component {
         <div className="resume-left">
           <h1 className="resume-name">SAMIRA SOBHANI</h1>
           <br />
-          <h4>F U L L - S T A C K</h4>
-          <h4>D E V E L O P E R</h4>
+          <h4 className="resume-leftTitle">F U L L - S T A C K</h4>
+          <h4 className="resume-leftTitle">D E V E L O P E R</h4>
           <br />
-          <p>Tel: (604) 418 6977</p>
-          <p> Vancouver , BC</p>
-          <p>Email: sobhani.samira@gmail.com</p>
-          <p>linkedin.com/in/samira-sobhani</p>
-          <p>github.com/SamiraSobhani</p>
-          <p>https://samirasobhani.netlify.app</p>
+          <p className="resume-leftContact">Tel: (604) 418 6977</p>
+          <p className="resume-leftContact"> Vancouver , BC</p>
+          <p className="resume-leftContact">Email: sobhani.samira@gmail.com</p>
+          <p className="resume-leftContact">linkedin.com/in/samira-sobhani</p>
+          <p className="resume-leftContact">github.com/SamiraSobhani</p>
+          <p className="resume-leftContact">https://samirasobhani.netlify.app</p>
         </div>
 
         <div className="resume-right">

@@ -70,46 +70,41 @@
 .myresume {
   background-color: white;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: baseline;
+  margin-left: 1.5rem;
 }
 .resume-name {
-  margin-top: 5rem;
-  font-size: 2rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
 }
-.resume-right {
-  margin-left: 37%;
-  width: 60%;
-  color: black;
-  display: block;
+.resume-leftTitle {
+  font-size: 0.9rem;
+}
+.resume-leftContact {
+  font-size: 0.75rem;
+  text-align: center;
 }
 .resume-left {
-  width: 28%;
+  width: 90%;
   background-color: gold;
   text-align: center;
-  height: 130rem;
-  margin-left: 4rem;
-  position: absolute;
-  top: 4rem;
-  display: block;
+  height: 25rem;
 }
-.knowledge {
-  display: flex;
-  justify-content: space-evenly;
-  margin-left: -10rem;
+.resume-right {
+  width: 95%;
+  color: black;
 }
 
 .tech {
-  display: flex;
-  justify-content: space-around;
+  line-height: 0.35rem;
 }
 .education {
   display: flex;
   justify-content: space-between;
 }
 .education-right {
-  font-size: 0.85rem;
+  font-size: 0.55rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -120,39 +115,131 @@
 }
 .experience {
   display: flex;
-  justify-content: space-between;
 }
 .experience-right {
-  font-size: 0.85rem;
+  font-size: 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .resume-header {
   color: black;
-  font-size: 1.2rem;
+  font-size: 0.7rem;
   font-weight: 700;
-  margin-top: 1.6rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   background-color: lightgray;
 }
 .resume-content {
-  font-size: 0.85rem;
+  font-size: 0.65rem;
   font-weight: 600;
-  line-height: 0.7rem;
+  line-height: 0.95rem;
 }
 h6 {
-  line-height: 1.5rem;
+  line-height: 1rem;
+  font-size: 0.65rem;
   font-weight: 700;
 }
 .pinpal-content {
-  line-height: 1.9rem;
+  line-height: 1.3rem;
 }
 .job-description {
-  line-height: 1.8rem;
+  line-height: 1rem;
 }
 .resume-footer {
   text-align: center;
-  margin-top: 4.5rem;
+  margin-top: 3rem;
   font-weight: 600;
+  font-size: 0.75rem;
+}
+@media (min-width: 768px) {
+  .resume-left {
+    width: 28%;
+    background-color: gold;
+    text-align: center;
+    height: 130rem;
+    margin-left: 4rem;
+    position: absolute;
+    top: 4rem;
+    display: block;
+  }
+  .myresume {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .resume-name {
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+  .resume-right {
+    margin-left: 37%;
+    width: 60%;
+    color: black;
+    display: block;
+  }
+  .knowledge {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -10rem;
+  }
+
+  .tech {
+    display: flex;
+    justify-content: space-around;
+  }
+  .education {
+    display: flex;
+    justify-content: space-between;
+  }
+  .education-right {
+    font-size: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .projects {
+    display: flex;
+    justify-content: space-between;
+  }
+  .experience {
+    display: flex;
+    justify-content: space-between;
+  }
+  .experience-right {
+    font-size: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .resume-header {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 1.6rem;
+    margin-bottom: 1rem;
+    background-color: lightgray;
+  }
+  .resume-content {
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 0.7rem;
+  }
+  h6 {
+    line-height: 1.3rem;
+    font-weight: 700;
+  }
+  .pinpal-content {
+    line-height: 1.9rem;
+  }
+  .job-description {
+    line-height: 1.8rem;
+  }
+  .resume-footer {
+    text-align: center;
+    margin-top: 4.5rem;
+    font-weight: 600;
+  }
 }
