@@ -19,7 +19,9 @@ class About extends Component {
           <p className="resume-leftContact">Email: sobhani.samira@gmail.com</p>
           <p className="resume-leftContact">linkedin.com/in/samira-sobhani</p>
           <p className="resume-leftContact">github.com/SamiraSobhani</p>
-          <p className="resume-leftContact">https://samirasobhani.netlify.app</p>
+          <p className="resume-leftContact">
+            https://samirasobhani.netlify.app
+          </p>
         </div>
 
         <div className="resume-right">
@@ -145,47 +147,47 @@ class About extends Component {
                 {" "}
                 - Software Developer Internship | ABOMIS Innovations Inc.{" "}
               </h6>
-              <p> &nbsp; &nbsp;- Developed passenger boarding pass </p>
+              <p> &nbsp;- Developed passenger boarding pass </p>
               <p className="job-description">
-                &nbsp; &nbsp;- Involved in DCS(Departure Control System) coding
-                and acted as a consultant using my experience in Airline and
+                &nbsp;- Involved in DCS(Departure Control System) coding and
+                acted as a consultant using my experience in Airline and
                 aviation{" "}
               </p>
               <h6> - Travel Consultant | Direct Travel </h6>
               <p>
-                &nbsp; &nbsp;- Investigated all client inquiries to identify the
+                &nbsp;- Investigated all client inquiries to identify the
                 correct solutions.
               </p>
               <p className="job-description">
-                &nbsp; &nbsp;- Provided customers with recommendations for
-                services that best fit their needs and budget constraints.
+                &nbsp;- Provided customers with recommendations for services
+                that best fit their needs and budget constraints.
               </p>
               <h6> - Senior Officer of Reservation/ Ticketing | Oman Air </h6>
               <p className="job-description">
-                &nbsp; &nbsp;- Collaborated with team members to streamline
-                processes to perform under pressure and meet deadlines
-                effectively
+                &nbsp;- Collaborated with team members to streamline processes
+                to perform under pressure and meet deadlines effectively
               </p>
-              <p> &nbsp; &nbsp;- Coach, monitor, and train teammates</p>
+              <p> &nbsp;- Coach, monitor, and train teammates</p>
               <h6> - Travel Agent | Ostoureh Parvaz travel agency </h6>
               <p>
                 {" "}
-                &nbsp; &nbsp;- Demonstrated customer service skills by assisting
-                all customers in addressing their needs
+                &nbsp;- Demonstrated customer service skills by assisting all
+                customers in addressing their needs
               </p>
               <h6> - Co-Manager | Atourban Advertising Co </h6>
               <p className="job-description">
-                &nbsp; &nbsp;- Managed advertising strategies, customer
-                retention strategies, and the quality control of services
-                offered to customers
+                &nbsp;- Managed advertising strategies, customer retention
+                strategies, and the quality control of services offered to
+                customers
               </p>
             </span>
 
             <span className="experience-right">
-              <p>APR 2021,VANCOUVER, BC</p>
-              <p>SEP 2012 - MAR 2018, TEHRAN,IRAN </p>
-              <p>JAN 2008 - AUG 2012, TEHRAN,IRAN</p>
-              <p>JAN 2004- DEC 2007, TEHRAN,IRAN</p>
+              <p>APR 2021 - present,VANCOUVER, BC</p>
+              <p>JAN 2019 - DEC 2020, VANCOUVER, BC</p>
+              <p>SEP 2012 -MAR 2018, TEHRAN,IRAN </p>
+              <p>JAN 2008 -AUG 2012, TEHRAN,IRAN</p>
+              <p>JAN 2004 -DEC 2007, TEHRAN,IRAN</p>
             </span>
           </div>
           <p className="resume-footer">References Available Upon Request</p>

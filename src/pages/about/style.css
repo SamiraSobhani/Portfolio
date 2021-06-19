@@ -157,6 +157,121 @@ h6 {
     width: 28%;
     background-color: gold;
     text-align: center;
+    height: 125rem;
+    margin-left: 0.5rem;
+    position: absolute;
+    top: 4rem;
+    display: block;
+  }
+  .myresume {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .resume-name {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+  }
+  .resume-leftTitle {
+    font-size: 0.8rem;
+  }
+  .resume-leftContact {
+    font-size: 0.65rem;
+    text-align: center;
+  }
+  .resume-right {
+   line-height: 0.9rem;
+    margin-left: 32%;
+    width: 68%;
+    color: black;
+    display: block;
+  }
+  .knowledge {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -2.8rem;
+  }
+
+  .tech {
+    display: flex;
+    justify-content: space-around;
+    line-height: 0.9rem;
+  }
+  .education {
+    display: flex;
+    justify-content: space-between;
+  }
+  .education-right {
+    margin-right: 0.4rem;
+    font-size: 0.55rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   text-align: left;
+  }
+  .projects {
+    display: flex;
+    justify-content: space-between;
+  }
+  .experience {
+    display: flex;
+    justify-content: space-between;
+  }
+  .experience-right {
+    font-size: 0.55rem;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content:baseline;
+    margin-bottom: -3rem;
+  }
+  .experience-left{
+    width: 60%;
+    margin-bottom: 0;
+  }
+.experience-left p{
+  margin-bottom: 0;
+}
+  .resume-header {
+    color: black;
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
+    background-color: lightgray;
+  }
+  .resume-content {
+    font-size: 0.65rem;
+    font-weight: 600;
+    line-height: 1rem;
+  }
+  h6 {
+    line-height: 1rem;
+    font-weight: 700;
+    font-size: 0.65rem;
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+  }
+  .pinpal-content {
+    line-height: 1rem;
+  }
+  .job-description {
+    line-height: 1.3rem;
+  }
+  .resume-footer {
+    text-align: center;
+    margin-top: 3.3rem;
+    font-weight: 600;
+    font-size: 0.65rem;
+  }
+}
+@media (min-width: 1440px) {
+  .resume-left {
+    width: 28%;
+    background-color: gold;
+    text-align: center;
     height: 130rem;
     margin-left: 4rem;
     position: absolute;
