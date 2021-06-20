@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Abel|Raleway|Raleway+Dot|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap");
-
 .home-left {
-  
   width: 100%;
   background-color: gold;
 }
@@ -19,22 +16,17 @@
 .first-line {
   padding-top: 1.2rem;
   font-size: 2rem;
-  font-family: "Sulphur Point", sans-serif;
 }
 .second_line {
   font-size: 1rem;
-  font-family: "Julius Sans One", sans-serif;
 }
 .typical {
   font-size: 0.9rem;
-  font-family: "Sulphur Point", sans-serif;
 }
 .home-description {
   margin-left: 2.4rem;
   margin-right: 2rem;
-  font-family: "Sulphur Point", sans-serif;
 }
-
 
 @media (min-width: 768px) {
   .first-line {
@@ -46,14 +38,13 @@
     margin-left: 0;
     margin-right: 0;
     display: block;
-   
+
     height: 85vh;
   }
   .home-left {
-   
     width: 36%;
     position: absolute;
-    top:6rem;
+    top: 6rem;
     left: 5%;
   }
 
@@ -66,7 +57,7 @@
     font-size: 0.85rem;
     font-weight: 700;
   }
-  .home-description{
+  .home-description {
     font-size: 1rem;
   }
 }
@@ -80,7 +71,7 @@
   .typical {
     font-size: 1rem;
   }
-  .home-description{
+  .home-description {
     font-size: 1.3rem;
   }
 }
