@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../project_card_details/style.css";
 import { Col, Row, Card, Button, Image } from "react-bootstrap";
-import { CopyToClipboard } from "react-copy-to-clipboard";
+// import { CopyToClipboard } from "react-copy-to-clipboard";
 import { ToastsContainer, ToastsStore } from "react-toasts";
 import GitLogo from "../../assets/img/git.svg";
 

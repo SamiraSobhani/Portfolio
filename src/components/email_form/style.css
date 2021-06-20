@@ -1,6 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap"); */
-@import url("https://fonts.googleapis.com/css?family=Abel|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap");
+
 
 .Contact-form {
   text-align: center;
@@ -12,7 +10,7 @@
   font-size: 0.9rem;
   font-weight: 600;
   padding: 1%;
-  font-family: "Sulphur Point", sans-serif;
+ 
 }
 
 .contact_input {
@@ -21,7 +19,7 @@
 }
 
 .contact_input_text {
-  font-family: "Sulphur Point", sans-serif;
+
   font-size: 0.75rem;
   border-radius: 0.3rem;
   text-align: center;
