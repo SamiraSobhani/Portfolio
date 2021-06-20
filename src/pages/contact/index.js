@@ -1,6 +1,6 @@
 import React from "react";
 import "../contact/style.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import ContactLeft from "../../components/contact_left";
 import EmailForm from "../../components/email_form";
 import { Helmet } from "react-helmet";
@@ -18,15 +18,14 @@ class Contact extends React.Component {
           />
         </Helmet>
         <Container className="Contact-header" fluid={true}>
-          <Row className="Contact-main">
-            <Col xl={6} className="Contact-left">
+          <div className="Contact-main">
+            <div className="Contact-left">
               <ContactLeft />
-            </Col>
-            <Col xl={6} className="Contact-right">
+            </div>
+            <div className="Contact-right">
               <EmailForm />
-            </Col>
-          </Row>
-          <Row className="Contact-footer"></Row>
+            </div>
+          </div>
         </Container>
       </div>
     );

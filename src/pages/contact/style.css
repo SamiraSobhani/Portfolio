@@ -6,6 +6,9 @@
 
 .Contact-main {
   height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .form-group {
   color: rgb(230, 200, 154);
@@ -25,4 +28,66 @@
 
 .Contact-footer {
   min-height: 5vh;
+}
+@media (min-width: 768px) {
+  .Contact-header {
+    background-color: white;
+    color: rgb(230, 200, 154);
+    height: 70vh;
+  }
+
+  .Contact-main {
+    height: 69vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .form-group {
+    color: rgb(230, 200, 154);
+  }
+
+  .Contact-left {
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem 0 0 0.2rem;
+    width: 40%;
+  }
+
+  .Contact-right {
+    margin-top: 1.3rem;
+    width: 45%;
+  }
+
+  .Contact-footer {
+    min-height: 5vh;
+  }
+}
+@media (min-width: 1440px) {
+  .Contact-header {
+    background-color: white;
+    color: rgb(230, 200, 154);
+    height: 75vh;
+  }
+
+  .Contact-main {
+    height: 70vh;
+  }
+  .form-group {
+    color: rgb(230, 200, 154);
+  }
+
+  .Contact-left {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+  }
+
+  .Contact-right {
+    margin-top: 1.3rem;
+  }
+
+  .Contact-footer {
+    min-height: 5vh;
+  }
 }

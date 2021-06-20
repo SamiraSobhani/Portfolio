@@ -1,34 +1,109 @@
 @import url("https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap");
 
-
 .Contact-text {
   text-align: center;
   color: rgb(26, 26, 26);
-  margin-top: 6rem;
 }
 
 .p-heading1 {
-  font-size: 4rem;
+  margin-top: 1rem;
+  font-size: 2.3rem;
   font-family: "Sulphur Point", sans-serif;
 }
 
 .p-heading2 {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  padding: 2.5%;
+  padding: 6%;
   font-family: "Sulphur Point", sans-serif;
 }
 
 .contact-left-footer {
   width: 100%;
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 .contact-me {
   background-color: gold;
-  width: 75%;
-  height: 39.5rem;
-  margin-left: 4rem;
-  position: absolute;
-  top: -24.5rem;
+  width: 100%;
+  height: 19.5rem;
+}
+@media (min-width: 768px) {
+  .Contact-text {
+    text-align: center;
+    color: rgb(26, 26, 26);
+    margin-top: 4rem;
+  }
+
+  .p-heading1 {
+    font-size: 2.3rem;
+    font-family: "Sulphur Point", sans-serif;
+  }
+
+  .p-heading2 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 8%;
+    font-family: "Sulphur Point", sans-serif;
+  }
+
+  .contact-left-footer {
+    width: 100%;
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .contact-me {
+    background-color: gold;
+    width: 39%;
+    height: 35.5rem;
+    margin-left: 1%;
+    position: absolute;
+    top: 4.5rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .contact-me {
+    margin-left: 4%;
+  }
+  .p-heading1 {
+    font-size: 2.6rem;
+  }
+  .p-heading2 {
+    font-size: 1rem;
+  }
+
+}
+@media (min-width: 1440px) {
+  .Contact-text {
+    text-align: center;
+    color: rgb(26, 26, 26);
+    margin-top: 6rem;
+  }
+
+  .p-heading1 {
+    font-size: 3rem;
+    font-family: "Sulphur Point", sans-serif;
+  }
+
+  .p-heading2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 2.5%;
+    font-family: "Sulphur Point", sans-serif;
+  }
+
+  .contact-left-footer {
+    width: 100%;
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .contact-me {
+    background-color: gold;
+    width: 45%;
+    height: 39.5rem;
+    margin-left: 1%;
+    position: absolute;
+    top: 5rem;
+  }
 }

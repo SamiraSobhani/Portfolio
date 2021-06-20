@@ -9,7 +9,7 @@
 }
 
 .contact-form-header {
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   font-weight: 600;
   padding: 1%;
   font-family: "Sulphur Point", sans-serif;
@@ -22,7 +22,7 @@
 
 .contact_input_text {
   font-family: "Sulphur Point", sans-serif;
-  font-size: 1rem;
+  font-size: 0.75rem;
   border-radius: 0.3rem;
   text-align: center;
   background: transparent;
@@ -46,9 +46,20 @@
   color: rgb(230, 200, 154);
 }
 .contact-email-text-btn {
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   font-weight: 600;
   color: black;
   border-color: gray;
 }
 
+@media (min-width:768){
+  .contact-form-header {
+    font-size: 1.3rem;
+  }
+  .contact_input_text {
+    font-size: 1rem;
+  }
+  .contact-email-text-btn {
+    font-size: 0.85rem;
+  }
+}
