@@ -37,3 +37,47 @@
 .repoInfo {
   font-weight: 600;
 }
+@media (min-width:768px){
+  .project_card_right {
+    color: white;
+  }
+  
+  .project_card_left_img {
+    height: 45%;
+    width: 45%;
+    background: white;
+  }
+  
+  .project_img_container {
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+  }
+  
+  .project_card_main {
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+  }
+  
+  .pro_card {
+    background-color: transparent;
+    border-width: 0.01px;
+    border-color: honeydew;
+    margin: 1%;
+    text-align: center;
+  }
+  
+  .repoName {
+    font-size: 1.5rem;
+  
+    font-weight: 600;
+  }
+  
+  .repoInfo {
+    font-weight: 600;
+  }
+}
+@media (min-width:1440px){
+
+}

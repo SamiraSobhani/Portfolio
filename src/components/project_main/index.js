@@ -62,7 +62,7 @@ export default class PM extends Component {
             <Col xl={1} key={item.id} className="card_col">
               <Card className="card_main">
                 <blockquote className="blockquote mb-0 card-body">
-                  <h4>{item.name}</h4>
+                  <h4 className="card_header">{item.name}</h4>
                   <p>{item.description}</p>
                   <footer className="blockquote-footer">
                     Built using :{" "}
@@ -75,12 +75,12 @@ export default class PM extends Component {
                       this.setState({ isOpen: true, image: item.image })
                     }
                     className="icon"
-                    size="lg"
+                   
                   />{" "}
                   &nbsp;&nbsp;
                   {item.link !== false && (
                     <Card.Link href={item.link} target="_blank">
-                      <img src={GitIcon} alt="Git"></img>
+                      <img className="Git-icon" src={GitIcon} alt="Git"></img>
                     </Card.Link>
                   )}
                 </Card.Body>
