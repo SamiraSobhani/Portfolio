@@ -38,11 +38,7 @@ export default function Nav() {
             to="/about"
             className="home-left-aboutme"
           >
-            <Button
-              variant="outline-light"
-              // size="lg"
-              className="home-left-aboutme-btn"
-            >
+            <Button variant="outline-light" className="home-left-aboutme-btn">
               Resume
             </Button>
           </Link>
@@ -55,7 +51,6 @@ export default function Nav() {
             <Button variant="outline-light" className="home-left-aboutme-btn">
               Contact Me
             </Button>
-           
           </Link>
         </div>
         <Switch>

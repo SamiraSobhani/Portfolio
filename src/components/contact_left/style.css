@@ -32,7 +32,7 @@
   }
 
   .p-heading1 {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
   }
 
   .p-heading2 {
@@ -56,7 +56,7 @@
   }
 }
 
-@media (min-width: 110px) {
+@media (min-width: 1100px) {
   .contact-me {
     margin-left: 4%;
   }

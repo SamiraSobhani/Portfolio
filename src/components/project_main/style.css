@@ -20,7 +20,7 @@
 .card-body h4 {
   color: gold;
 }
-.card_header{
+.card_header {
   font-size: 1rem;
 }
 .card_main:hover {
@@ -38,9 +38,8 @@
 .icon {
   color: white;
   cursor: pointer;
-
 }
-.Git-icon{
+.Git-icon {
   height: 2rem;
 }
 
@@ -50,23 +49,21 @@
 .projects {
   display: flex;
   flex-direction: column;
- 
+
   background-color: white;
 }
 .projects_video {
   display: flex;
   flex-direction: column;
- 
+
   width: 100%;
 }
 .poster {
-  height: 20rem;
-
+  height: 25rem;
 }
 .video-react {
   background-color: white;
- }
-
+}
 
 .videos {
   width: 90%;
@@ -83,15 +80,14 @@
 .card_col {
   min-width: 80%;
 }
-
-
+/* ******************************************** */
 @media (min-width: 768px) {
   .card_col {
     margin-left: 3%;
     padding-top: 3%;
     margin-top: 6%;
   }
-  
+
   .card_main {
     height: 16.9rem;
   }
@@ -99,21 +95,18 @@
     font-size: 0.85rem;
   }
 
-  .card_header{
+  .card_header {
     font-size: 1.2rem;
   }
- 
-  
+
   .blockquote-footer {
     font-size: 0.75rem;
   }
-  
-  
-  .Git-icon{
+
+  .Git-icon {
     height: 2.2rem;
   }
-  
-  
+
   .projects {
     display: flex;
     flex-direction: row;
@@ -123,21 +116,19 @@
   .projects_video {
     display: flex;
     flex-direction: column;
-   
+
     width: 100%;
   }
   .poster {
-    height: 22rem;
-  
+    height: 25rem;
   }
   .video-react {
     background-color: white;
-   }
-  
-  
+  }
+
   .videos {
     width: 95%;
-  
+
     margin-left: 1rem;
     margin-top: 2rem;
     border: gray solid 0.1rem;
@@ -152,32 +143,29 @@
     min-width: 80%;
   }
 }
+/* ************************************* */
 @media (min-width: 1440px) {
-
   .card_col {
     margin-left: 8%;
     padding-top: 5%;
     margin-top: 5%;
   }
-
   .card_main {
     height: 16rem;
   }
   .card-body {
     font-size: 0.9rem;
   }
-  .card_header{
+  .card_header {
     font-size: 1.3rem;
   }
 
- 
   .blockquote-footer {
     font-size: 0.85rem;
   }
-  .Git-icon{
+  .Git-icon {
     height: 2.4rem;
   }
- 
 
   .projects_video {
     display: flex;
@@ -193,7 +181,6 @@
   }
   .poster {
     height: 25rem;
-  
   }
   .cards {
     width: 47%;
