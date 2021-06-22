@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: center;
   padding-right: 3%;
-  
 }
 
 .home-left-aboutme-btn {
@@ -34,7 +33,13 @@
     justify-content: flex-end;
   }
   .home-left-aboutme-btn {
+    font-size: 0.55rem;
+    width: 5.4rem;
+  }
+}
+@media (min-width: 1440px) {
+  .home-left-aboutme-btn {
     font-size: 0.7rem;
-    width: 5.7rem;
+   
   }
 }
